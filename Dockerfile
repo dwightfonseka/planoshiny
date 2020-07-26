@@ -15,7 +15,8 @@ RUN apt-get install -y  libproj-dev
 RUN apt-get install -y  libxml2-dev
 RUN apt-get install -y  libxt-dev
 RUN apt-get install -y  libv8-dev
-RUN apt-get install -y  libmagick++-dev\ git 
+RUN apt-get install -y  libmagick++-dev 
+RUN apt-get install -y  git 
 RUN cd /srv/shiny-server
 RUN mkdir pmcv
 COPY /home/ubuntu/pmcv/app.R ./srv/shiny-server/pmcv/app.R
