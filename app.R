@@ -179,7 +179,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       myMYO<-as.character(myMYO)
       
-      url <- "http://18.138.231.235:2323/onsetprob"      # the url changes when you restart AWS
+      url <- "http://18.141.214.37:2323/onsetprob"      # the url changes when you restart AWS
       body <- list(EyeTest=myC,
                    Gender=myG,
                    EyeTestAge=myET,
@@ -248,7 +248,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       myMYO <- as.character(myMYO)
 
-      url1 <- "http://18.138.231.235:2323/onsetage1"      # the url changes when you restart AWS
+      url1 <- "http://18.141.214.37:2323/onsetage1"      # the url changes when you restart AWS
       body1 <- list(EyeTest=myC,
                    Gender=myG,
                    EyeTestAge=myET,
@@ -266,7 +266,7 @@ server=function(input,output,session){
 
       r21=r3[1]
       
-      url2 <- "http://18.138.231.235:2323/onsetage2"      # the url changes when you restart AWS
+      url2 <- "http://18.141.214.37:2323/onsetage2"      # the url changes when you restart AWS
       body2 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
@@ -338,7 +338,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       myMYO<-as.character(myMYO)
       
-      url1 <- "http://18.138.231.235:2323/prograte"      # the url changes when you restart AWS
+      url1 <- "http://18.141.214.37:2323/prograte"      # the url changes when you restart AWS
       body1 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
@@ -403,7 +403,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       myMYO=as.character(myMYO)
       
-      url2 <- "http://18.138.231.235:2323/progfinal"      # the url changes when you restart AWS
+      url2 <- "http://18.141.214.37:2323/progfinal"      # the url changes when you restart AWS
       body2 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
@@ -422,7 +422,7 @@ server=function(input,output,session){
       r31=r5[1]
       
       
-      url3 <- "http://18.138.231.235:2323/stable"      # the url changes when you restart AWS
+      url3 <- "http://18.141.214.37:2323/stable"      # the url changes when you restart AWS
       body3 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
@@ -493,7 +493,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       myMYO<-as.character(myMYO)
       
-      url3 <- "http://18.138.231.235:2323/highage"      # the url changes when you restart AWS
+      url3 <- "http://18.141.214.37:2323/highage"      # the url changes when you restart AWS
       body3 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
@@ -565,7 +565,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       
       
-      url <- "http://18.138.231.235:2323/proggraph"      # the url changes when you restart AWS
+      url <- "http://18.141.214.37:2323/proggraph"      # the url changes when you restart AWS
       body <- list(EyeTest=myC,
                    Gender=myG,
                    EyeTestAge=myET,
@@ -658,7 +658,7 @@ server=function(input,output,session){
       myHP<-as.numeric(myHP)
       myMYO=as.character(myMYO)
       
-      url2 <- "http://18.138.231.235:2323/progfinal"      # the url changes when you restart AWS
+      url2 <- "http://18.141.214.37:2323/progfinal"      # the url changes when you restart AWS
       body2 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
@@ -678,7 +678,7 @@ server=function(input,output,session){
       
       ####################
       
-      url3 <- "http://18.138.231.235:2323/highage"      # the url changes when you restart AWS
+      url3 <- "http://18.141.214.37:2323/highage"      # the url changes when you restart AWS
       body3 <- list(EyeTest=myC,
                     Gender=myG,
                     EyeTestAge=myET,
