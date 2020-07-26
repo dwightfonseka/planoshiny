@@ -6,7 +6,7 @@ RUN apt-get install -y  libtiff-dev
 RUN apt-get install -y  libpng-dev 
 RUN apt-get install -y  pandoc 
 RUN apt-get install -y  pandoc-citeproc  
-RUN apt-get install -y  libssl-dev R
+RUN apt-get install -y  libssl-dev
 RUN apt-get install -y  libcurl4-gnutls-dev  
 RUN apt-get install -y  libcairo2-dev
 RUN apt-get install -y  libgdal-dev 
