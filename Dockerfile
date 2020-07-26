@@ -17,8 +17,6 @@ RUN apt-get install -y  libxt-dev
 RUN apt-get install -y  libv8-dev
 RUN apt-get install -y  libmagick++-dev 
 RUN apt-get install -y  git 
-RUN cd /srv/shiny-server
-RUN mkdir pmcv
-RUN pwd
+RUN mkdir /srv/shiny-server/pmcv
 RUN sudo R -e 'install.packages(c("shiny","shinyWidgets","httr","jsonlite","shinyjs","ggplot2"),dep=T)'
     
